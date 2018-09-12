@@ -1,5 +1,6 @@
-// config/index.js
+const env = process.env;
+
 module.exports = {
-    host: '127.0.0.1',
-    port: 3000,
-};
+  host: env.HOST,
+  port: env.PORT,
+}

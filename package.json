@@ -13,6 +13,8 @@
   "author": "lanlan",
   "license": "ISC",
   "dependencies": {
+    "env2": "^2.2.2",
+    "eslint-config-airbnb-base": "^13.1.0",
     "hapi": "^16.6.3"
   }
 }

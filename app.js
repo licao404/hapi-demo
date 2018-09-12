@@ -1,5 +1,6 @@
 // app.js
 const Hapi = require('hapi');
+require('env2')('./.env');
 const config = require('./config');
 const routeHekkoHapi = require('./routes/hello-hapi');
 
